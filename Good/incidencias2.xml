@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<incidendias>
+    <incidencia id="1">
+        <nombre>Carlos</nombre>
+        <apellidos>Palomares</apellidos>
+        <inci>Asesinato en masa en centro educativo</inci>
+    </incidencia>
+    <incidencia id="2">
+        <nombre>Paula</nombre>
+        <apellidos>Ramirez</apellidos>
+        <inci>Reverberación</inci>
+    </incidencia>
+    <incidencia id="3">
+        <nombre>4</nombre>
+        <apellidos>4</apellidos>
+        <inci>4</inci>
+    </incidencia>
+</incidendias>

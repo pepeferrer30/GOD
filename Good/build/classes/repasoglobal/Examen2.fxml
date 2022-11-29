@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="726.0" prefWidth="894.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="repasoglobal.Examen2Controller">
+   <children>
+      <TextArea fx:id="textAreaMostrar" layoutX="157.0" layoutY="194.0" prefHeight="339.0" prefWidth="581.0" wrapText="true" />
+      <TextField fx:id="cantVocales" layoutX="75.0" layoutY="612.0" prefHeight="25.0" prefWidth="453.0" promptText="Vocales" />
+      <TextField fx:id="textfieldArchivo" layoutX="213.0" layoutY="87.0" text="text.txt" />
+      <Label layoutX="129.0" layoutY="91.0" text="Archivo" />
+      <TextField fx:id="cantVecesPalabra" layoutX="571.0" layoutY="612.0" prefHeight="25.0" prefWidth="189.0" promptText="CantVecesSe repite la palabra" />
+      <TextField fx:id="textFieldPalabraBuscar" layoutX="213.0" layoutY="132.0" />
+      <Button fx:id="botonBuscar" layoutX="395.0" layoutY="132.0" mnemonicParsing="false" onAction="#BuscarPalabra" text="Buscar" />
+      <Label layoutX="114.0" layoutY="136.0" text="palabra a Buscar" />
+      <TextField fx:id="textfieldArchivo1" layoutX="471.0" layoutY="132.0" promptText="RutaNueva" />
+      <Button fx:id="CrearNuevo" layoutX="643.0" layoutY="132.0" mnemonicParsing="false" onAction="#crearNuevoArchivo" text="Crear Nuevo" />
+   </children>
+</AnchorPane>

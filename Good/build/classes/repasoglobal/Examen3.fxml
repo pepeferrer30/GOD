@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="380.0" prefWidth="494.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="repasoglobal.Examen3Controller">
+      <children>
+      <Button layoutX="322.0" layoutY="45.0" mnemonicParsing="false" onAction="#accionButtonConf" text="Configuración" />
+      <TextField fx:id="inputId" layoutX="75.0" layoutY="87.0" />
+      <Label layoutX="75.0" layoutY="70.0" text="ID:" />
+      <TextField fx:id="inputNombre" layoutX="75.0" layoutY="143.0" />
+      <Label layoutX="75.0" layoutY="126.0" text="Nombre:" />
+      <TextField fx:id="inputApellidos" layoutX="75.0" layoutY="204.0" />
+      <Label layoutX="75.0" layoutY="187.0" text="Apellidos:" />
+      <TextField fx:id="inputIncidencia" layoutX="75.0" layoutY="260.0" />
+      <Label layoutX="75.0" layoutY="243.0" text="Incidencia:" />
+      <Button layoutX="322.0" layoutY="307.0" mnemonicParsing="false" onAction="#accionButtonAtras" text="&lt;" />
+      <Button layoutX="388.0" layoutY="307.0" mnemonicParsing="false" onAction="#accionButtonAdelante" text="&gt;" />
+   </children>
+</AnchorPane>
